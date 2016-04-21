@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio-NS</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&amp;subset=latin,cyrillic' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html" class="page-header__logo">studio.ns</a>
+    <nav class="page-header__nav" role="navigation">
+      <ul class="page-header__nav-list">
+        <li><a href="services.html" class="page-header-nav__link">наши услуги</a></li>
+        <li><a href="about-us.html" class="page-header-nav__link">о нас</a></li>
+        <li><a href="create-image.html" class="page-header-nav__link">создаем образ</a></li>
+        <li><a href="brand.html" class="page-header-nav__link">бренды</a></li>
+        <li><a href="news.html" class="page-header-nav__link">новости</a></li>
+        <li><a href="contacts.html" class="page-header-nav__link">контакты</a></li>
+      </ul>
+    </nav>
+      <div class="contacts">
+        <a href="tel:+1234567890" class="contacts__tel">8 800 123 4567</a>
+        <p class="contacts__address">г.Кемерово, Россия</br> ул. Улица 1 - 125</p>
+        <p class="contacts__work-time">Время работы</br> с 9:00 по 21:00</p>
+        <p class="copyright">© 2016</br>Студия Надежды Семеновой</p>
+      </div>
+  </header>
+  <main class="content">
+    <section class="services-slider slider"> 
+      <h2 class="services-slider__slogan">Индивидуальное помещение для каждого клиента</h2>
+      <input type="radio" id="services-slider__btn1" name="services-slider__toggle" checked>
+      <input type="radio" id="services-slider__btn2" name="services-slider__toggle">
+      <input type="radio" id="services-slider__btn3" name="services-slider__toggle">
+      <input type="radio" id="services-slider__btn4" name="services-slider__toggle">
+      <div class="services-slider__controls">
+        <label for="services-slider__btn1"></label>
+        <label for="services-slider__btn2"></label>
+        <label for="services-slider__btn3"></label>
+        <label for="services-slider__btn4"></label>
+      </div>
+      <div class="services-slider__slides">
+        <div class="services-slider__slide">
+          <span class="services-slider__slide-num">1</span>
+          <p class="services-slider__slide-desc">мы предоставляем</p>
+          <h1 class="services-slider__slide-title"></h1>
+        </div>
+        <div class="services-slider__slide">
+          <span class="services-slider__slide-num">2</span>
+          <p class="services-slider__slide-desc">мы предоставляем</p>
+          <h1 class="services-slider__slide-title">ногтевой сервис</h1>
+        </div>
+        <div class="services-slider__slide">
+          <span class="services-slider__slide-num">3</span>
+          <p class="services-slider__slide-desc">мы предоставляем</p>
+          <h1 class="services-slider__slide-title"></h1>
+        </div>
+      </div>
+    </section>
+    <section class="extra-items">
+      <div class="image-item">
+        <div class="image-item__link">все работы</div>
+        <div class="image-item__title">Создаем образ</div>
+      </div>
+      <div class="aboutus__item">
+        <div class="aboutus-item__inner-frame">
+          <a href="" class="aboutus-item__link">всё о компании</a>
+          <span class="aboutus-item__title">О нас</span>
+        </div>
+        <p class="aboutus-item__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero non, deserunt, voluptates minima quia dolores excepturi amet repudiandae maxime fugit assumenda eius iusto dolore voluptatum perspiciatis reprehenderit. Hic, distinctio, numquam.</p>
+      </div>
+      <div class="news-item">
+        <div class="news-item__inner-frame">
+          <time class="news-item__date" datetime="2016-05-10"><span class="news-date__count">5</span> мая</time>
+          <div class="news-item__content">
+            <div class="news-item__title"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolores ea consectetur, quos minima soluta harum quaerat facere minus nulla ex voluptatibus explicabo molestias fugit autem, nobis optio sed laborum.</p>
+            <a href="" class="news-item__btn btn"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brands-slider slider">
+      <div class="brands-slider__title">
+        <a href="" class="brands-slider__link">все бренды</a> 
+        Бренды
+      </div>
+    </section>
+  </main>
+</body>
+</html>

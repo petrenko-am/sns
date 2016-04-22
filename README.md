@@ -1,5 +1,5 @@
 # Проект - "Студия НС"
-
+[![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 
 [travis-image]: https://travis-ci.org/petrenko-am/sns.svg?branch=master

@@ -1,4 +1,5 @@
 node_modules/
+studio_ns_design/
 
 # Windows image file caches
 Thumbs.db
@@ -47,4 +48,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-
